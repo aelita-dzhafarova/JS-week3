@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Panier</title>
+</head>
+<body>
+    <h2 class="container">Panier</h2>
+
+    <div class="panier container">
+
+        <div class="item">
+            <img src="./assets/vanille-framboise.jpeg" alt="gâteau vanille framboise">
+            <div class="description">
+                <h3>Gâteau Vanille Framboise</h3>
+                <p>Taille : 12 parts</p>
+                <p>Quantité : 1</p>
+            </div>
+            <p class="price">Prix : <span class="itemprice">55</span> €</p>
+        </div>
+
+        <div class="item">
+            <img src="./assets/cupcake-red-velvet.jpeg" alt="cupcake red velvet">
+            <div class="description">
+                <h3>Cupcake Red Velvet</h3>
+                <p>Taille : Classique</p>
+                <p>Quantité : 12</p>
+            </div>
+            <p class="price">Prix : <span class="itemprice">45.60</span>€</p>
+        </div>
+
+        <div class="item">
+            <img src="./assets/cookie.jpeg" alt="cookie">
+            <div class="description">
+                <h3>Cookie</h3>
+                <p>Quantité : 10</p>
+            </div>
+            <p class="price">Prix : <span class="itemprice">25</span>€</p>
+        </div>
+
+        <div class="item">
+            <img src="./assets/foret-noire.jpeg" alt="gâteau forêt noire">
+            <div class="description">
+                <h3>Gâteau Forêt Noire</h3>
+                <p>Taille : 8 parts</p>
+                <p>Quantité : 1</p>
+            </div>
+            <p class="price">Prix : <span class="itemprice">38</span>€</p>
+        </div>
+
+        <div class="total">
+            <button class="button">Utiliser coupon -20%</button>
+            <p class="total_sum">SOMME À PAYER
+            <br><span id="sum"></span>€</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

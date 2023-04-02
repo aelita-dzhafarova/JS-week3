@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1230px;
+    margin: auto;
+    padding: 0 15px;
+  }
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.item {
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid grey;
+}
+
+img {
+    margin: 50px 0;
+}
+
+.description, .price {
+    margin: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.price {
+    margin-left: auto;
+}
+
+.total {
+    display: flex;
+    justify-content: start;
+}
+
+button {
+    width: 25%;
+    margin: 50px 50px 50px 0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background-color: #ffe6e6;
+    border-radius: 0;
+}
+
+button:active {
+    background-color: #ffcccc;
+}
+
+.total_sum {
+    margin: 50px;
+    margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+}
